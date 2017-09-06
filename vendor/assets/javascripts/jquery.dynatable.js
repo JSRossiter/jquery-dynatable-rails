@@ -10,7 +10,7 @@
  */
 //
 
-$.(document).ready(function() {
+$(document).ready(function() {
   var defaults,
       mergeSettings,
       dt,
