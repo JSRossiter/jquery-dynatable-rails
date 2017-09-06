@@ -10,7 +10,7 @@
  */
 //
 
-(function($) {
+$.(document).ready(function() {
   var defaults,
       mergeSettings,
       dt,
@@ -1678,4 +1678,4 @@
 
   $.dynatable(dt);
 
-})(jQuery);
+});
